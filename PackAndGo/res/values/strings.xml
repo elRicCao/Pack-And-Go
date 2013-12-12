@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pack And Go</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_friends_section">Friends</string>
+    <string name="title_groups_section">Groups</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_group_detail">GroupDetailActivity</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="des_avatar">User avatar</string>
+    <string name="des_imgbtn_info">Contact information</string>
+    <string name="des_imgbtn_conversation">Conversation</string>
+    <string name="des_imgbtn_delete">Delete</string>
+    <string name="des_img_activity_user_detail">User Image</string>
+    <string name="label_location">Location</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_address">Address</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="label_me">Me</string>
+    <string name="label_view_profile">view profile</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+</resources>

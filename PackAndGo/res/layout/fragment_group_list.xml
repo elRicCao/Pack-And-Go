@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/me_fragment_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:text="@string/label_me"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold" 
+        android:textAllCaps="true"/>
+    
+    <TextView 
+        android:id="@+id/num_groups_fragment_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/light_gray"/>
+
+    <View
+        android:id="@+id/divider_fragment_group"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/num_groups_fragment_group"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_blue_light" />
+    
+    <ExpandableListView
+        android:id="@+id/list_group_fragment_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/divider_fragment_group"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:divider="@android:color/transparent"
+        android:childDivider="@android:color/transparent">
+    </ExpandableListView>
+
+</RelativeLayout>

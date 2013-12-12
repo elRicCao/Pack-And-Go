@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDetailActivity" >
+
+    <ImageView
+        android:id="@+id/image_user_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/des_img_activity_user_detail"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <!-- Current Location -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:text="@string/label_location"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold" 
+            android:textAllCaps="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_blue_light" />
+
+        <TextView 
+            android:id="@+id/user_detail_location" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <!-- Phone -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:text="@string/label_phone"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold" 
+            android:textAllCaps="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_blue_light" />
+        
+        <TextView 
+            android:id="@+id/user_detail_phone" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <!-- Email -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:text="@string/label_email"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:textAllCaps="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_blue_light" />
+        
+        <TextView 
+            android:id="@+id/user_detail_email" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <!-- Address -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:text="@string/label_address"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold" 
+            android:textAllCaps="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_blue_light" />
+        
+        <TextView 
+            android:id="@+id/user_detail_address" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </LinearLayout>
+
+</LinearLayout>
